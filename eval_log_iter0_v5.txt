@@ -1,9 +1,0 @@
-[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
-Loading outputs/iteration_0...
-  PEFT model detected, base model: gpt2
-Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1352.08it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1349.18it/s]
-Loading gpt2...
-Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1314.85it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1312.15it/s]
-[transformers] The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-[transformers] Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.

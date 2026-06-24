@@ -1,0 +1,66 @@
+{
+  "total_prg_files": 1037,
+  "total_ch_files": 143,
+  "total_files": 1180,
+  "total_entries": 996,
+  "skipped_prg": 177,
+  "skipped_ch": 7,
+  "train_entries": 896,
+  "val_entries": 100,
+  "categories": {
+    "tests": 225,
+    "utils": 13,
+    "rtl": 80,
+    "rdd": 11,
+    "extras": 25,
+    "contrib": 583,
+    "include": 59
+  },
+  "files_per_category": {
+    "contrib": {
+      "graphics": 33,
+      "compatibility": 238,
+      "network": 45,
+      "platform": 82,
+      "security": 10,
+      "utility": 48,
+      "data_format": 10,
+      "header": 71,
+      "database": 46
+    },
+    "include": {
+      "header": 59
+    },
+    "tests": {
+      "function_api": 172,
+      "language_basics": 36,
+      "oop": 5,
+      "database": 10,
+      "performance": 2
+    },
+    "rtl": {
+      "utility": 41,
+      "oop_class": 15,
+      "ui_menu": 5,
+      "file_io": 7,
+      "database": 3,
+      "ui_widget": 1,
+      "get_system": 6,
+      "error_handling": 2
+    },
+    "extras": {
+      "utility": 6,
+      "spreadsheet": 6,
+      "server": 8,
+      "header": 5
+    },
+    "rdd": {
+      "rdd_core": 11
+    },
+    "utils": {
+      "test_framework": 11,
+      "i18n": 1,
+      "header": 1
+    }
+  }
+}

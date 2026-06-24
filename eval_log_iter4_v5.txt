@@ -1,57 +1,0 @@
-[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
-Loading outputs/iteration_4...
-  PEFT model detected, base model: Qwen/Qwen2.5-0.5B
-Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  24%|██▍       | 70/290 [00:00<00:00, 697.61it/s]Loading weights:  67%|██████▋   | 195/290 [00:00<00:00, 1020.62it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 1052.06it/s]
-Loading Qwen/Qwen2.5-0.5B...
-Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:  13%|█▎        | 38/290 [00:00<00:00, 376.85it/s]Loading weights:  56%|█████▌    | 161/290 [00:00<00:00, 867.11it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 959.31it/s]
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.
-[transformers] Setting `pad_token_id` to `eos_token_id`:151643 for open-end generation.

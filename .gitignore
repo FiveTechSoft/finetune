@@ -1,17 +1,27 @@
-venv/
-.git/
+# Logs
+*.log
+
+# Python cache
 __pycache__/
 *.pyc
 
-# Model checkpoints and large binary files
-outputs/*/checkpoint-*/
-outputs/*/optimizer.pt
-outputs/*/scheduler.pt
-outputs/*/rng_state.pth
-outputs/*/training_args.bin
+# Virtual environment
+venv/
 
-# Large datasets
-harbour_fwh_dedup.jsonl
-harbour_fwh_final.jsonl
-harbour_fwh_fixed.jsonl
-harbour_fwh_improved.jsonl
+# Models (large files)
+models/
+
+# Output checkpoints
+output/
+output_v2/
+
+# Test output
+test_output/
+
+# Compiled cache
+unsloth_compiled_cache/
+
+# Temp files
+*.tmp
+*.swp
+finetune/
