@@ -1,0 +1,17 @@
+venv/
+.git/
+__pycache__/
+*.pyc
+
+# Model checkpoints and large binary files
+outputs/*/checkpoint-*/
+outputs/*/optimizer.pt
+outputs/*/scheduler.pt
+outputs/*/rng_state.pth
+outputs/*/training_args.bin
+
+# Large datasets
+harbour_fwh_dedup.jsonl
+harbour_fwh_final.jsonl
+harbour_fwh_fixed.jsonl
+harbour_fwh_improved.jsonl

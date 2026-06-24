@@ -1,0 +1,420 @@
+{
+  "total": 52,
+  "compiled": 7,
+  "errors": 45,
+  "no_code": 4403,
+  "error_details": [
+    {
+      "example": 4404,
+      "instruction": "Cómo crear un hilo básico en Harbour con TThread",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error F0029  Can't open #include file 'fivewin.ch'"
+      ]
+    },
+    {
+      "example": 4404,
+      "instruction": "Cómo crear un hilo básico en Harbour con TThread",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'OTHREAD'"
+      ]
+    },
+    {
+      "example": 4405,
+      "instruction": "Implementar mutex para proteger variables compartidas",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'THREADSAFECOUNTER'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'NCOUNT'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'OMUTEX'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'INCREMENT'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'DECREMENT'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'GET'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(16) Error E0030  Syntax error \"syntax error at 'INCREMENT'\"\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'DECREMENT'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(28) Error E0030  Syntax error \"syntax error at 'GET'\"\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0006  Procedure returns value",
+        "12 errors"
+      ]
+    },
+    {
+      "example": 4406,
+      "instruction": "Crear un pool de hilos para procesamiento paralelo",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'THREADPOOL'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'ATHREADS'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'NMAXTHREADS'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'OQUEUE'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'OMUTEX'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'SUBMIT'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'PROCESSNEXT'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'SHUTDOWN'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0030  Syntax error \"syntax error at 'NMAX'\"\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'NMAX'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'SUBMIT'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'BTASK'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(29) Error E0030  Syntax error \"syntax error at 'PROCESSNEXT'\"\n\n/tmp/tmpyth6cno5/test.prg(30) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'BTASK'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'BTASK'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(41) Error E0030  Syntax error \"syntax error at 'SHUTDOWN'\"\n\n/tmp/tmpyth6cno5/test.prg(42) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(43) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(43) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(44) Warning W0001  Ambiguous reference 'OTHREAD'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0006  Procedure returns value",
+        "17 errors"
+      ]
+    },
+    {
+      "example": 4407,
+      "instruction": "¿Cómo usar eventos entre hilos?",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'INTERTHREADMESSENGER'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'OQUEUE'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'OMUTEX'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'HWND'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'RECEIVE'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'HWND'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(18) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'UMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'WM_USER'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(25) Error E0030  Syntax error \"syntax error at 'RECEIVE'\"\n\n/tmp/tmpyth6cno5/test.prg(26) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'UMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'UMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'UMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0006  Procedure returns value",
+        "12 errors"
+      ]
+    },
+    {
+      "example": 4408,
+      "instruction": "Crear un semáforo para limitar concurrencia",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'SEMAPHORE'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'NMAX'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'NCURRENT'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'OMUTEX'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'OCONDITION'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'WAIT'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'SIGNAL'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'TRYWAIT'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'NMAX'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(20) Error E0030  Syntax error \"syntax error at 'WAIT'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(29) Error E0030  Syntax error \"syntax error at 'SIGNAL'\"\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(36) Error E0030  Syntax error \"syntax error at 'TRYWAIT'\"\n\n/tmp/tmpyth6cno5/test.prg(37) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0001  Ambiguous reference 'LACQUIRED'\n\n/tmp/tmpyth6cno5/test.prg(38) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0001  Ambiguous reference 'LACQUIRED'\n\n/tmp/tmpyth6cno5/test.prg(43) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(44) Warning W0001  Ambiguous reference 'LACQUIRED'\n\n/tmp/tmpyth6cno5/test.prg(44) Warning W0006  Procedure returns value",
+        "15 errors"
+      ]
+    },
+    {
+      "example": 4408,
+      "instruction": "Crear un semáforo para limitar concurrencia",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'OSEM'"
+      ]
+    },
+    {
+      "example": 4409,
+      "instruction": "Crear un servidor TCP básico en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error F0029  Can't open #include file 'fivewin.ch'"
+      ]
+    },
+    {
+      "example": 4410,
+      "instruction": "Hacer una petición HTTP GET con Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'CJSON'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CJSON'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'ADATA'"
+      ]
+    },
+    {
+      "example": 4411,
+      "instruction": "Enviar datos con POST HTTP en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(10) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'AHEADER'\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0002  Ambiguous reference, assuming memvar 'AHEADER'\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0002  Ambiguous reference, assuming memvar 'AHEADER'",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4411,
+      "instruction": "Enviar datos con POST HTTP en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CRESULT'"
+      ]
+    },
+    {
+      "example": 4412,
+      "instruction": "Implementar cliente WebSocket en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'WEBSOCKETCLIENT'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'OSOCKET'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'CURL'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'LCONNECTED'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'BONOPEN'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'BONMESSAGE'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'BONCLOSE'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'BONERROR'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'CLOSE'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0030  Syntax error \"syntax error at 'ONOPEN'\"\n\n/tmp/tmpyth6cno5/test.prg(16) Error E0030  Syntax error \"syntax error at 'ONMESSAGE'\"\n\n/tmp/tmpyth6cno5/test.prg(17) Error E0030  Syntax error \"syntax error at 'ONCLOSE'\"\n\n/tmp/tmpyth6cno5/test.prg(18) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(20) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'CURL'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(33) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'CMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(39) Error E0030  Syntax error \"syntax error at 'CLOSE'\"\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(42) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(44) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(46) Error E0030  Syntax error \"syntax error at 'ONOPEN'\"\n\n/tmp/tmpyth6cno5/test.prg(47) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(48) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(49) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(51) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(53) Error E0030  Syntax error \"syntax error at 'ONMESSAGE'\"\n\n/tmp/tmpyth6cno5/test.prg(54) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(55) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(55) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(57) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(59) Error E0030  Syntax error \"syntax error at 'ONCLOSE'\"\n\n/tmp/tmpyth6cno5/test.prg(60) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(61) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(62) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(64) Warning W0006  Procedure returns value",
+        "23 errors"
+      ]
+    },
+    {
+      "example": 4413,
+      "instruction": "Crear un cliente FTP para subir archivos",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'FTPCLIENT'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'OFTP'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'CSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'CUSER'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'CPASS'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'UPLOAD'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'DOWNLOAD'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'DISCONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'CSERVER'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'CUSER'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'CPASS'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(21) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(28) Error E0030  Syntax error \"syntax error at 'UPLOAD'\"\n\n/tmp/tmpyth6cno5/test.prg(29) Error E0030  Syntax error \"syntax error at 'CREMOTEFILE'\"\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'CLOCALFILE'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'CREMOTEFILE'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(32) Error E0030  Syntax error \"syntax error at 'DOWNLOAD'\"\n\n/tmp/tmpyth6cno5/test.prg(33) Error E0030  Syntax error \"syntax error at 'CLOCALFILE'\"\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'CREMOTEFILE'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'CLOCALFILE'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(36) Error E0030  Syntax error \"syntax error at 'DISCONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(38) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0006  Procedure returns value",
+        "18 errors"
+      ]
+    },
+    {
+      "example": 4414,
+      "instruction": "Explica BEGIN SEQUENCE y RECOVER en Harbour",
+      "block": 1,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(8) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(10) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0001  Ambiguous reference 'OERROR'"
+      ]
+    },
+    {
+      "example": 4414,
+      "instruction": "Explica BEGIN SEQUENCE y RECOVER en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(6) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(7) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(8) Warning W0001  Ambiguous reference 'OERROR'"
+      ]
+    },
+    {
+      "example": 4414,
+      "instruction": "Explica BEGIN SEQUENCE y RECOVER en Harbour",
+      "block": 3,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'THROW'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4415,
+      "instruction": "Crear sistema de logging de errores",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'ERRORLOGGER'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'CLOGFILE'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'OMUTEX'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'CLEVEL'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'LOG'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'ERROR'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'WARN'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'INFO'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'GETTIMESTAMP'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'CLOGFILE'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(20) Error E0030  Syntax error \"syntax error at 'LOG'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'CLEVEL'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'CLEVEL'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'CMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'CLINE'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'CLINE'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(29) Error E0030  Syntax error \"syntax error at 'ERROR'\"\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'CMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(32) Error E0030  Syntax error \"syntax error at 'WARN'\"\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'CMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(35) Error E0030  Syntax error \"syntax error at 'INFO'\"\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'CMESSAGE'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(38) Error E0030  Syntax error \"syntax error at 'GETTIMESTAMP'\"\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0006  Procedure returns value",
+        "19 errors"
+      ]
+    },
+    {
+      "example": 4416,
+      "instruction": "Implementar retry con backoff exponencial",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'NMAXRETRIES'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'NBASEDELAY'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'NMAXDELAY'\"",
+        "3 errors"
+      ]
+    },
+    {
+      "example": 4417,
+      "instruction": "Manejar errores de red con reconexión automática",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'RESILIENTCONNECTION'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'OCONNECTION'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'CSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'NPORT'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'NMAXRETRIES'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NRETRYDELAY'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'LCONNECTED'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'RECONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'ONERROR'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(17) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'CSERVER'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'NPORT'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0030  Syntax error \"syntax error at 'CONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(25) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'NATTEMPT'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'NATTEMPT'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(30) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'NATTEMPT'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'NATTEMPT'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'NATTEMPT'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(38) Error E0030  Syntax error \"syntax error at 'RECONNECT'\"\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(42) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(48) Error E0030  Syntax error \"syntax error at 'SEND'\"\n\n/tmp/tmpyth6cno5/test.prg(49) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(50) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(52) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(54) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(54) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(55) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(56) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(57) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(57) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(60) Warning W0006  Procedure returns value",
+        "18 errors"
+      ]
+    },
+    {
+      "example": 4418,
+      "instruction": "Conectar y consultar un archivo DBF en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'ESTADO'"
+      ]
+    },
+    {
+      "example": 4419,
+      "instruction": "Realizar transacciones con Firebird/PostgreSQL",
+      "block": 1,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'OERROR'"
+      ]
+    },
+    {
+      "example": 4420,
+      "instruction": "Crear un ORM simple para Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'MODEL'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'CTABLE'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'AFIELDS'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'ODB'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'FIND'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'SAVE'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'DELETE'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'TOJSON'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'FROMJSON'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'CTABLE'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'ODB'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(20) Error E0030  Syntax error \"syntax error at 'FIND'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'NID'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(22) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0030  Syntax error \"syntax error at 'SAVE'\"\n\n/tmp/tmpyth6cno5/test.prg(25) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'AVALUES'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'AFIELDS'\n\n/tmp/tmpyth6cno5/test.prg(26) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'AFIELDS'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'AVALUES'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'NI'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'AFIELDS'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'AVALUES'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(37) Error E0030  Syntax error \"syntax error at 'DELETE'\"\n\n/tmp/tmpyth6cno5/test.prg(39) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(39) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(42) Error E0030  Syntax error \"syntax error at 'TOJSON'\"\n\n/tmp/tmpyth6cno5/test.prg(43) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(43) Warning W0001  Ambiguous reference 'OJSON'\n\n/tmp/tmpyth6cno5/test.prg(44) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(45) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(45) Warning W0001  Ambiguous reference 'AFIELD'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0002  Ambiguous reference, assuming memvar 'OJSON'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0002  Ambiguous reference, assuming memvar 'AFIELD'\n\n/tmp/tmpyth6cno5/test.prg(46) Warning W0002  Ambiguous reference, assuming memvar 'AFIELD'\n\n/tmp/tmpyth6cno5/test.prg(48) Warning W0001  Ambiguous reference 'OJSON'\n\n/tmp/tmpyth6cno5/test.prg(48) Warning W0006  Procedure returns value",
+        "21 errors"
+      ]
+    },
+    {
+      "example": 4421,
+      "instruction": "Implementar caché de consulta de base de datos",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'QUERYCACHE'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'HCACHE'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'ODB'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'NTTL'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'QUERY'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'INVALIDATE'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'CLEAR'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'ISEXPIRED'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'ODB'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(18) Error E0030  Syntax error \"syntax error at 'QUERY'\"\n\n/tmp/tmpyth6cno5/test.prg(19) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(19) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'CSQL'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(23) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(27) Error E0030  Syntax error \"syntax error at 'ISEXPIRED'\"\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(33) Error E0030  Syntax error \"syntax error at 'INVALIDATE'\"\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'CKEY'\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(39) Error E0030  Syntax error \"syntax error at 'CLEAR'\"\n\n/tmp/tmpyth6cno5/test.prg(40) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0006  Procedure returns value",
+        "16 errors"
+      ]
+    },
+    {
+      "example": 4422,
+      "instruction": "Explica la herencia en Harbour/OOP",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'ANIMAL'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'CNAME'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'NAGE'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'SPEAK'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'DESCRIBE'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'CNAME'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0001  Ambiguous reference 'NAGE'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(17) Error E0030  Syntax error \"syntax error at 'SPEAK'\"\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(20) Error E0030  Syntax error \"syntax error at 'DESCRIBE'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(21) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0030  Syntax error \"syntax error at 'DOG'\"\n\n/tmp/tmpyth6cno5/test.prg(25) Error E0030  Syntax error \"syntax error at 'CBREED'\"\n\n/tmp/tmpyth6cno5/test.prg(27) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(28) Error E0030  Syntax error \"syntax error at 'SPEAK'\"\n\n/tmp/tmpyth6cno5/test.prg(29) Error E0030  Syntax error \"syntax error at 'FETCH'\"\n\n/tmp/tmpyth6cno5/test.prg(30) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(32) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'CNAME'\n\n/tmp/tmpyth6cno5/test.prg(33) Warning W0001  Ambiguous reference 'NAGE'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'CBREED'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(37) Error E0030  Syntax error \"syntax error at 'SPEAK'\"\n\n/tmp/tmpyth6cno5/test.prg(38) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(40) Error E0030  Syntax error \"syntax error at 'FETCH'\"\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(41) Warning W0006  Procedure returns value",
+        "19 errors"
+      ]
+    },
+    {
+      "example": 4422,
+      "instruction": "Explica la herencia en Harbour/OOP",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'ODOG'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'ODOG'\n\n/tmp/tmpyth6cno5/test.prg(4) Warning W0001  Ambiguous reference 'ODOG'"
+      ]
+    },
+    {
+      "example": 4423,
+      "instruction": "Implementar patrón Singleton en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'SINGLETON'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'OINSTANCE'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(16) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0006  Procedure returns value",
+        "7 errors"
+      ]
+    },
+    {
+      "example": 4423,
+      "instruction": "Implementar patrón Singleton en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'OSINGLETON'"
+      ]
+    },
+    {
+      "example": 4424,
+      "instruction": "Crear una interfaz (mixin) en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'SERIALIZABLE'\"\n\n/tmp/tmpyth6cno5/test.prg(4) Error E0030  Syntax error \"syntax error at 'SERIALIZE'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'DESERIALIZE'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0030  Syntax error \"syntax error at 'SERIALIZE'\"\n\n/tmp/tmpyth6cno5/test.prg(9) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(9) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0030  Syntax error \"syntax error at 'DESERIALIZE'\"\n\n/tmp/tmpyth6cno5/test.prg(12) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0001  Ambiguous reference 'CDATA'\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0001  Ambiguous reference 'ADATA'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'ADATA'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(17) Error E0030  Syntax error \"syntax error at 'USER'\"\n\n/tmp/tmpyth6cno5/test.prg(18) Error E0030  Syntax error \"syntax error at 'CNAME'\"\n\n/tmp/tmpyth6cno5/test.prg(19) Error E0030  Syntax error \"syntax error at 'CEMAIL'\"\n\n/tmp/tmpyth6cno5/test.prg(21) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'GETFIELDS'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Error E0030  Syntax error \"syntax error at 'SETFIELDS'\"\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(26) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'CNAME'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'CEMAIL'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(29) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(31) Error E0030  Syntax error \"syntax error at 'GETFIELDS'\"\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(32) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(34) Error E0030  Syntax error \"syntax error at 'SETFIELDS'\"\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0002  Ambiguous reference, assuming memvar 'ADATA'\n\n/tmp/tmpyth6cno5/test.prg(35) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0002  Ambiguous reference, assuming memvar 'ADATA'\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(37) Warning W0006  Procedure returns value",
+        "17 errors"
+      ]
+    },
+    {
+      "example": 4424,
+      "instruction": "Crear una interfaz (mixin) en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'OUSER'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'OUSER'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CJSON'"
+      ]
+    },
+    {
+      "example": 4425,
+      "instruction": "Implementar patrón Observer en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'OBSERVABLE'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'AOBSERVERS'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'ADDOBSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'REMOVEOBSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0030  Syntax error \"syntax error at 'NOTIFY'\"\n\n/tmp/tmpyth6cno5/test.prg(8) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(10) Error E0030  Syntax error \"syntax error at 'ADDOBSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'OOBSERVER'\n\n/tmp/tmpyth6cno5/test.prg(12) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(14) Error E0030  Syntax error \"syntax error at 'REMOVEOBSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(15) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'OOBSERVER'\n\n/tmp/tmpyth6cno5/test.prg(15) Warning W0001  Ambiguous reference 'NPOS'\n\n/tmp/tmpyth6cno5/test.prg(16) Warning W0001  Ambiguous reference 'NPOS'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'NPOS'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(20) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'NOTIFY'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Error E0004  LOCAL declaration follows executable statement\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(24) Warning W0001  Ambiguous reference 'OOBSERVER'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'OOBSERVER'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'CEVENT'\n\n/tmp/tmpyth6cno5/test.prg(25) Warning W0001  Ambiguous reference 'UDATA'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(30) Error E0030  Syntax error \"syntax error at 'OBSERVER'\"\n\n/tmp/tmpyth6cno5/test.prg(31) Error E0030  Syntax error \"syntax error at 'UPDATE'\"\n\n/tmp/tmpyth6cno5/test.prg(32) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(34) Error E0030  Syntax error \"syntax error at 'UPDATE'\"\n\n/tmp/tmpyth6cno5/test.prg(36) Warning W0006  Procedure returns value",
+        "15 errors"
+      ]
+    },
+    {
+      "example": 4426,
+      "instruction": "Crear un Factory en Harbour",
+      "block": 1,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'SHAPEFACTORY'\"\n\n/tmp/tmpyth6cno5/test.prg(3) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(5) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(6) Error E0030  Syntax error \"syntax error at 'DATA'\"\n\n/tmp/tmpyth6cno5/test.prg(7) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(9) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(10) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(10) Warning W0001  Ambiguous reference 'CTYPE'\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0001  Ambiguous reference 'CTYPE'\n\n/tmp/tmpyth6cno5/test.prg(11) Error E0066  Function not declared with variable number of parameters\n\n/tmp/tmpyth6cno5/test.prg(11) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(13) Warning W0001  Ambiguous reference 'CTYPE'\n\n/tmp/tmpyth6cno5/test.prg(14) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(16) Error E0030  Syntax error \"syntax error at 'METHOD'\"\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'BCREATOR'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(17) Warning W0001  Ambiguous reference 'CTYPE'\n\n/tmp/tmpyth6cno5/test.prg(18) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(21) Error E0030  Syntax error \"syntax error at 'CIRCLE'\"\n\n/tmp/tmpyth6cno5/test.prg(22) Error E0030  Syntax error \"syntax error at 'NRADIUS'\"\n\n/tmp/tmpyth6cno5/test.prg(23) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(24) Error E0020  Incomplete statement or unbalanced delimiters\n\n/tmp/tmpyth6cno5/test.prg(26) Error E0030  Syntax error \"syntax error at 'NEW'\"\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(27) Warning W0001  Ambiguous reference 'NRADIUS'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0001  Ambiguous reference 'SELF'\n\n/tmp/tmpyth6cno5/test.prg(28) Warning W0006  Procedure returns value\n\n/tmp/tmpyth6cno5/test.prg(31) Warning W0001  Ambiguous reference 'SHAPEFACTORY'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'SHAPEFACTORY'\n\n/tmp/tmpyth6cno5/test.prg(34) Warning W0001  Ambiguous reference 'OSHAPE'",
+        "13 errors"
+      ]
+    },
+    {
+      "example": 4427,
+      "instruction": "Mi código DBF no cierra bien, ¿qué hago mal?",
+      "block": 4,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'á'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4428,
+      "instruction": "SET FILTER TO no funciona, ¿por qué?",
+      "block": 1,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'ESTADO'\n\n/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'ESTADO'"
+      ]
+    },
+    {
+      "example": 4428,
+      "instruction": "SET FILTER TO no funciona, ¿por qué?",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'ESTADO'"
+      ]
+    },
+    {
+      "example": 4428,
+      "instruction": "SET FILTER TO no funciona, ¿por qué?",
+      "block": 3,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'ESTADO'"
+      ]
+    },
+    {
+      "example": 4428,
+      "instruction": "SET FILTER TO no funciona, ¿por qué?",
+      "block": 4,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at '.'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4429,
+      "instruction": "El programa se cuelga al acceder a BD, ¿cómo lo soluciono?",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(7) Warning W0001  Ambiguous reference 'OERROR'\n\n/tmp/tmpyth6cno5/test.prg(8) Warning W0001  Ambiguous reference 'OERROR'"
+      ]
+    },
+    {
+      "example": 4429,
+      "instruction": "El programa se cuelga al acceder a BD, ¿cómo lo soluciono?",
+      "block": 3,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at 'HARDLOCK'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4429,
+      "instruction": "El programa se cuelga al acceder a BD, ¿cómo lo soluciono?",
+      "block": 4,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at '.'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 1,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(3) Warning W0001  Ambiguous reference 'CODIGO'"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 2,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'ESTADO'"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 4,
+      "errors": [
+        "/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'FECHA'\n\n/tmp/tmpyth6cno5/test.prg(2) Warning W0001  Ambiguous reference 'DFECHA'"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 5,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at '.'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 6,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at '.'\"",
+        "1 error"
+      ]
+    },
+    {
+      "example": 4430,
+      "instruction": "Cómo optimizar una consulta lenta en Harbour",
+      "block": 7,
+      "errors": [
+        "Return code: 1",
+        "/tmp/tmpyth6cno5/test.prg(2) Error E0030  Syntax error \"syntax error at '.'\"",
+        "1 error"
+      ]
+    }
+  ]
+}

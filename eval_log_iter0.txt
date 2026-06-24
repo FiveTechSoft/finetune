@@ -1,0 +1,18 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading outputs/iteration_0...
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1222.46it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1220.11it/s]
+Loading weights:   0%|          | 0/72 [00:00<?, ?it/s]Loading weights: 100%|██████████| 72/72 [00:00<00:00, 4707.34it/s]
+Loading gpt2...
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1436.87it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1433.92it/s]
+
+Evaluating 500 examples...
+
+Traceback (most recent call last):
+  File "/home/antonio/finetune/scripts/eval.py", line 209, in <module>
+    main()
+  File "/home/antonio/finetune/scripts/eval.py", line 205, in main
+    evaluate(args)
+  File "/home/antonio/finetune/scripts/eval.py", line 121, in evaluate
+    prompt = example["prompt"]
+             ~~~~~~~^^^^^^^^^^
+KeyError: 'prompt'

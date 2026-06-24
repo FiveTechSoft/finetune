@@ -1,0 +1,7 @@
+{
+  "max_seq_length": 4096,
+  "gradient_accumulation_steps": 8,
+  "warmup_ratio": 0.03,
+  "weight_decay": 0.01,
+  "lr_scheduler_type": "cosine"
+}
