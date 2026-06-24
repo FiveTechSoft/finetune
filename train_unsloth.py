@@ -2,21 +2,26 @@
 """
 Harbour Fine-tuning Script for Qwen3.6-35B-A3B (MoE)
 Uses Unsloth + LoRA with 4-bit QLoRA on NVIDIA GB10 (121GB unified memory)
+Includes checkpoints for resume on interruption.
 """
 
 import json
 import os
+import signal
+import sys
 import torch
 from pathlib import Path
 from datasets import Dataset
 from unsloth import FastLanguageModel
 from trl import SFTTrainer
-from transformers import TrainingArguments
+from transformers import TrainingArguments, TrainerCallback
 
 os.environ["TORCHDYNAMO_DISABLE"] = "1"
 os.environ["TORCH_COMPILE_DISABLE"] = "1"
 os.environ["CPATH"] = "/usr/include/python3.12" + (":" + os.environ["CPATH"] if "CPATH" in os.environ else "")
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+
+INTERRUPTION_FILE = Path("/home/fivetech/finetune/output_v2/.interrupted")
 
 # Configuration
 MODEL_NAME = "/home/fivetech/finetune/models/Qwen3.6-35B-A3B"
@@ -24,6 +29,36 @@ TRAIN_FILE = Path("/home/fivetech/finetune/finetune/dataset/harbour_train.jsonl"
 VAL_FILE = Path("/home/fivetech/finetune/finetune/dataset/harbour_eval.jsonl")
 OUTPUT_DIR = Path("/home/fivetech/finetune/output_v2")
 MAX_SEQ_LENGTH = 1024
+
+class CheckpointCallback(TrainerCallback):
+    """Guarda checkpoint en cada step para poder resumir si se interrumpe."""
+    def on_log(self, args, state, control, logs=None, **kwargs):
+        if state.global_step > 0 and state.global_step % args.logging_steps == 0:
+            INTERRUPTION_FILE.write_text(json.dumps({
+                "last_step": state.global_step,
+                "last_epoch": state.epoch,
+                "train_loss": logs.get("train_loss"),
+                "eval_loss": logs.get("eval_loss"),
+            }))
+
+    def on_save(self, args, state, control, **kwargs):
+        INTERRUPTION_FILE.write_text(json.dumps({
+            "last_step": state.global_step,
+            "last_epoch": state.epoch,
+            "checkpoint": f"checkpoint-{state.global_step}",
+        }))
+
+def handle_signal(signum, frame):
+    """Guarda estado al recibir SIGTERM/SIGINT para resumir despues."""
+    print(f"\n[INTERRUPTED] Signal {signum} received. Saving state...")
+    INTERRUPTION_FILE.write_text(json.dumps({
+        "interrupted": True,
+        "signal": signum,
+    }))
+    sys.exit(0)
+
+signal.signal(signal.SIGTERM, handle_signal)
+signal.signal(signal.SIGINT, handle_signal)
 
 print("=" * 60)
 print("Harbour v2 Fine-tuning - Qwen3.6-35B-A3B (MoE) with Unsloth + LoRA (5004 examples)")
@@ -128,10 +163,10 @@ training_args = TrainingArguments(
     warmup_ratio=0.05,
     lr_scheduler_type="cosine",
     logging_steps=5,
-    save_steps=100,
-    save_total_limit=3,
+    save_steps=50,
+    save_total_limit=5,
     eval_strategy="steps",
-    eval_steps=100,
+    eval_steps=50,
     load_best_model_at_end=True,
     metric_for_best_model="eval_loss",
     bf16=False,
@@ -141,6 +176,7 @@ training_args = TrainingArguments(
     remove_unused_columns=False,
     max_grad_norm=1.0,
     optim="adamw_8bit",
+    dataloader_pin_memory=False,
 )
 
 # 7. Create trainer
@@ -153,6 +189,7 @@ trainer = SFTTrainer(
     eval_dataset=val_dataset,
     max_seq_length=MAX_SEQ_LENGTH,
     dataset_text_field="text",
+    callbacks=[CheckpointCallback()],
 )
 
 # 8. Train
@@ -183,6 +220,15 @@ if os.path.isdir(OUTPUT_DIR):
     if valid_checkpoints:
         last_checkpoint = sorted(valid_checkpoints, key=lambda x: int(os.path.basename(x).split("-")[1]))[-1]
         print(f"   Resuming from checkpoint: {last_checkpoint}")
+    else:
+        if INTERRUPTION_FILE.exists():
+            interruption = json.loads(INTERRUPTION_FILE.read_text())
+            if interruption.get("checkpoint"):
+                last_checkpoint = str(OUTPUT_DIR / interruption["checkpoint"])
+                if os.path.isdir(last_checkpoint) and os.path.exists(os.path.join(last_checkpoint, "optimizer.pt")):
+                    print(f"   Resuming from interrupted checkpoint: {last_checkpoint}")
+                else:
+                    last_checkpoint = None
 
 trainer.train(resume_from_checkpoint=last_checkpoint)
 
